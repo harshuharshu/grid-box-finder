@@ -1,0 +1,4 @@
+*.pdb
+*.cif
+__pycache__/
+.DS_Store

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Grid Box Finder: a browser-based tool for defining and checking AutoDock Vina search boxes"
+abstract: >-
+  A single-file, client-side web tool that computes an AutoDock Vina / PyRx grid box
+  from a co-crystallised ligand or a list of pocket residues, renders it in 3D, and runs
+  automated checks for common box-definition errors - including the selection of multiple
+  crystallographic copies of a ligand, which affects 9 of 25 benchmark structures, displaces the
+  box centre by a median of 25 angstrom and removes the binding site from a conventionally sized
+  box in 8 of 9 affected cases.
+type: software
+version: 1.2.0
+date-released: 2026-10-14
+license: MIT
+authors:
+  - given-names: Harshita
+    family-names: Tiwari
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "[Institution]"
+repository-code: "https://github.com/YOURNAME/grid-box-finder"
+url: "https://YOURNAME.github.io/grid-box-finder/"
+doi: "10.5281/zenodo.XXXXXXX"
+keywords:
+  - molecular docking
+  - AutoDock Vina
+  - PyRx
+  - structure-based drug design
+  - grid box
+  - virtual screening
+  - chemistry education
